@@ -5,7 +5,7 @@
 
 Name:          horde-kolab-format
 Version:       1.0.1
-Release:       %mkrel 2
+Release:       %mkrel 3
 Summary:       A package for reading/writing Kolab data formats
 License:       LGPL
 Group:         Networking/Mail
