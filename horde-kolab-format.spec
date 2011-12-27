@@ -1,3 +1,4 @@
+%define _requires_exceptions pear(PHPUnit/Framework.php)
 %define prj Kolab_Format
 
 %define xmldir  %{_var}/lib/pear
@@ -5,7 +6,7 @@
 
 Name:          horde-kolab-format
 Version:       1.0.1
-Release:       %mkrel 3
+Release:       %mkrel 
 Summary:       A package for reading/writing Kolab data formats
 License:       LGPL
 Group:         Networking/Mail
