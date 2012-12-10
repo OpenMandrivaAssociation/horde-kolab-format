@@ -73,3 +73,34 @@ fi
 %doc docs/Kolab_Format/*
 %{peardir}/*
 %{xmldir}/Kolab_Format.xml
+
+
+%changelog
+* Sun Feb 26 2012 Thomas Spuhler <tspuhler@mandriva.org> 1.0.1-6mdv2012.0
++ Revision: 780928
++ rebuild (emptylog)
+
+* Sun Feb 26 2012 Thomas Spuhler <tspuhler@mandriva.org> 1.0.1-5
++ Revision: 780783
++ rebuild (emptylog)
+
+* Tue Dec 27 2011 Thomas Spuhler <tspuhler@mandriva.org> 1.0.1-4
++ Revision: 745814
+- added define _requires_exceptions for none existent pear(PHPUnit/Framework)
+
+* Sat Jul 31 2010 Thomas Spuhler <tspuhler@mandriva.org> 1.0.1-3mdv2011.0
++ Revision: 564038
+- Increased release for rebuild
+
+* Thu Mar 18 2010 Thomas Spuhler <tspuhler@mandriva.org> 1.0.1-2mdv2010.1
++ Revision: 524853
+- replaced Requires(pre): %%{_bindir}/pear with Requires(pre): php-pear
+  increased rel ver to 2
+
+* Mon Mar 01 2010 Thomas Spuhler <tspuhler@mandriva.org> 1.0.1-1mdv2010.1
++ Revision: 512856
+- replaced PreReq with Requires(pre)
+- removed BuildRequires: horde-framework
+- import horde-kolab-format
+
+
