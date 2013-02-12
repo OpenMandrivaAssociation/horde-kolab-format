@@ -1,11 +1,10 @@
-%define _requires_exceptions pear(PHPUnit/Framework.php)
 %define peardir %(pear config-get php_dir 2> /dev/null || echo %{_datadir}/pear)
 %define xmldir  /var/lib/pear
 
 Summary: PEAR: A package for reading/writing Kolab data formats
 Name: 		horde-kolab-format
 Version:		1.0.1
-Release: 	%mkrel 6
+Release: 	7
 License: 	LGPLv2.1
 Group:		Networking/Mail
 Source0:		http://pear.horde.org/get/Kolab_Format-%{version}.tgz
