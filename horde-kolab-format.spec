@@ -4,7 +4,7 @@
 Summary: PEAR: A package for reading/writing Kolab data formats
 Name: 		horde-kolab-format
 Version:		1.0.1
-Release: 	7
+Release: 	8
 License: 	LGPLv2.1
 Group:		Networking/Mail
 Source0:		http://pear.horde.org/get/Kolab_Format-%{version}.tgz
