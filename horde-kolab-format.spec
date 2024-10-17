@@ -8,7 +8,7 @@ Release: 	8
 License: 	LGPLv2.1
 Group:		Networking/Mail
 Source0:		http://pear.horde.org/get/Kolab_Format-%{version}.tgz
-URL: 		http://pear.horde.org/package/Kolab_Format
+URL: 		https://pear.horde.org/package/Kolab_Format
 BuildRequires: 	php-pear >= 1.4.7
 BuildRequires: 	php-pear-channel-horde
 Requires: 	horde-dom >= 0.1.0
